@@ -18,7 +18,7 @@ function newTodoIndex() {
 function mapTodosToReturn() {
   return Object.entries(todos).map(([id, todo]) => ({
     ...todo,
-    id,
+    id: parseInt(id),
   }));
 }
 
