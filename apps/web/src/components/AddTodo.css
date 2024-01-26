@@ -1,0 +1,11 @@
+.addTodoForm {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.addTodoForm input {
+  font-size: 1.2rem;
+  padding: 0.25rem 0.1rem;
+}

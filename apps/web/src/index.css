@@ -54,6 +54,23 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+button.danger {
+  background-color: red;
+  color: lightgrey;
+  border: 0;
+  padding: 0.3em 0.6em;
+}
+
+button.danger:hover {
+  border: none;
+  background-color: darkred;
+}
+
+button.danger:focus,
+button.danger:focus-visible {
+  outline: 0;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;

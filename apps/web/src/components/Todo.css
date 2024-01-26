@@ -1,0 +1,13 @@
+.todo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.todo button.danger {
+  display: none;
+}
+
+.todo:hover button.danger {
+  display: inline-flex;
+}
